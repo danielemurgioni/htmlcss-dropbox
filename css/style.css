@@ -68,7 +68,7 @@ h2{
     font-size: 45px;
 }
 
-h3{
+#section-1 h3{
     font-size: 30px;
 }
 
@@ -112,6 +112,10 @@ h5{
 
 #section-2 .btn{
     max-width: 60%;
+}
+
+#section-2 h3, #section-3 h3{
+    font-size: 25px;
 }
 
 /*utility*/
@@ -290,6 +294,10 @@ h5{
 
 .j-between{
     justify-content: space-between;
+}
+
+.gap-r20{
+    row-gap: 20px;
 }
 
 /*utlity-pos*/
