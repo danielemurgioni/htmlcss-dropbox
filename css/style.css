@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: o;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -81,6 +81,10 @@ body{
 
 .col70{
     width: 70%;
+}
+
+.h2000{
+    height: 2000px;
 }
 
 .h400{
