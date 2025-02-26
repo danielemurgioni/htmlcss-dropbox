@@ -102,6 +102,18 @@ h5{
     margin-top: 50px;
 }
 
+#section-2{
+    margin-bottom: 150px;
+}
+
+#section-2 .col30{
+    margin: 40px;
+}
+
+#section-2 .btn{
+    max-width: 60%;
+}
+
 /*utility*/
 
 .bg-black{
