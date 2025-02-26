@@ -25,6 +25,22 @@ body{
 
 /*content*/
 
+header ul li{
+    display: inline-block;
+}
+
+.btn{
+    padding: 5px 15px;
+}
+
+#head-leftlinks li{
+    margin-left: 20px;
+}
+
+#head-rightlinks li{
+    margin-right: 20px;
+}
+
 /*utility*/
 
 .bg-black{
@@ -103,12 +119,22 @@ body{
     height: 100px;
 }
 
+/*utility-margin/padding*/
+
 .p50{
     padding: 50px;
 }
 
+.py30{
+    padding: 30px 0;
+}
+
 .m50{
     margin: 50px;
+}
+
+.mr20{
+    margin-right: 20px;
 }
 
 /*utility-flex*/
