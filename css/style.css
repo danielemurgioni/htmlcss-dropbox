@@ -76,7 +76,7 @@ h2{
     margin-bottom: 200px;
 }
 
-#section-1 ul li{
+ul{
     list-style: none;
 }
 
@@ -114,8 +114,20 @@ h5{
     max-width: 60%;
 }
 
-#section-2 h3, #section-3 h3{
+#section-2 h3, #section-3 h3, footer li h3{
     font-size: 25px;
+}
+
+/*content-footer*/
+
+footer li{
+    margin-bottom: 15px;
+}
+
+footer li hr{
+    max-width: 50%;
+    margin: 100px 0 50px 0;
+
 }
 
 /*utility*/
@@ -156,6 +168,10 @@ h5{
 
 .c-blue{
     color: blue;
+}
+
+.c-lightgrey{
+    color: rgba(211, 211, 211, 0.7) ;
 }
 
 .c-grey{
@@ -244,6 +260,10 @@ h5{
 
 .my10{
     margin: 10px 0;
+}
+
+.ml5{
+    margin-left: 5px;
 }
 
 .mr20{
