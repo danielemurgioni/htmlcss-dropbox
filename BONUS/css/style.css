@@ -8,6 +8,10 @@ body{
     font-family: "Open Sans";
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .container-big{
     max-width: 1500px;
     margin: 0 auto;
@@ -41,6 +45,11 @@ header ul li{
     margin-right: 20px;
 }
 
+header a{
+    text-decoration: none;
+    color:black;
+}
+
 /*content-main*/
 
 h1{
@@ -54,6 +63,11 @@ h1{
 
 #jumbotron{
     background: linear-gradient(teal 85%, white 15%);
+}
+
+#jumbotron a{
+    text-decoration: none;
+    color:black;
 }
 
 .fa-arrow-down{
@@ -93,6 +107,11 @@ ul{
     border-top: 1px solid black;
 }
 
+#section-1 .btn a{
+    text-decoration: none;
+    color: white;
+}
+
 .container-sm hr{
     border: 1px solid black;
     max-width: 20%;
@@ -123,6 +142,12 @@ h5{
     font-size: 25px;
 }
 
+#section-2 a{
+    text-decoration: none;
+    color: black;
+}
+
+
 /*content-footer*/
 
 footer li{
@@ -133,6 +158,11 @@ footer li hr{
     max-width: 50%;
     margin: 100px 0 50px 0;
 
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }
 
 /*utility*/
@@ -147,18 +177,6 @@ footer li hr{
 
 .bg-blue{
     background-color: blue;
-}
-
-.bg-lightgrey{
-    background-color: lightgrey;
-}
-
-.bg-red{
-    background-color: red;
-}
-
-.bg-green{
-    background-color: green;
 }
 
 .border-black{
@@ -231,10 +249,6 @@ footer li hr{
 
 /*utility-margin/padding*/
 
-.p50{
-    padding: 50px;
-}
-
 .p30{
     padding: 30px;
 }
@@ -243,16 +257,8 @@ footer li hr{
     padding-top: 50px;
 }
 
-.pb50{
-    padding-bottom: 50px;
-}
-
 .py30{
     padding: 30px 0;
-}
-
-.m50{
-    margin: 50px;
 }
 
 .my20{
@@ -265,10 +271,6 @@ footer li hr{
 
 .ml5{
     margin-left: 5px;
-}
-
-.mr20{
-    margin-right: 20px;
 }
 
 .mr5{
@@ -287,12 +289,12 @@ footer li hr{
     margin-bottom: 30px;
 }
 
-.mb40{
-    margin-bottom: 40px;
-}
-
 .mb50{
     margin-bottom: 50px;
+}
+
+.mt80{
+margin-top: 80px;
 }
 
 /*utility-flex*/
