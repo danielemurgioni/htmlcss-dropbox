@@ -27,7 +27,41 @@ html{
     margin: 0 auto;
 }
 
-/*Links-underline hover*/
+/*Bonus dropdown-menu*/
+
+.dropdown-menu {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 25%;
+    background-color:#949494;
+    max-height: 200px;
+    box-shadow: 6px 7px 0px 1px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-menu:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content li {
+    color: black;
+    margin: 10px 15px 10px 0px;
+    padding: 5px;
+    max-width: 100px;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content li:hover{
+    background-color: teal;
+}
+
+
+
+/*Bonus Links-underline hover*/
 
 footer a:hover{
     text-decoration: underline;
