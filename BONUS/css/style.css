@@ -27,6 +27,22 @@ html{
     margin: 0 auto;
 }
 
+/*Bonus Button*/
+
+.btn{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-delay: 20ms;
+}
+
+.btn.bg-blue:hover{
+    background-color: rgb(120, 35, 177);
+}
+
+.btn.border-black:hover{
+    background-color: rgba(86, 82, 82, 0.7);
+}
+
 /*content-header*/
 
 header ul li{
