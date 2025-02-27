@@ -27,6 +27,20 @@ html{
     margin: 0 auto;
 }
 
+/*Links-underline hover*/
+
+footer a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+}
+
+header ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 2px;
+}
+
 /*Bonus Input-radio styling*/
 
 .button-radio {
